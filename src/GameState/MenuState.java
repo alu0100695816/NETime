@@ -99,6 +99,9 @@ public class MenuState extends GameState {
 	}
 	
 	public void keyPressed(int k) {
+		if(k == KeyEvent.VK_ESCAPE) {
+			System.exit(0);
+		}
 		if(k == KeyEvent.VK_ENTER){
 			select();
 		}

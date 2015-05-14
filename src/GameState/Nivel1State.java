@@ -50,7 +50,7 @@ public class Nivel1State extends GameState {
 		getTileMap().draw(g);
 		
 		//Dibujar personaje
-		pj.paint(g);
+		pj.draw(g);
 		
 	}
 

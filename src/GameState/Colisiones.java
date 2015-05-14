@@ -46,7 +46,7 @@ public class Colisiones extends GameState{
 		for (int i = 0; i < getObjetos().length; i++) {
 			getObjetos()[i].paint(g2d);
 		}
-		getPersonaje().paint(g2d);
+		getPersonaje().draw(g2d);
 		
 	}
 	
